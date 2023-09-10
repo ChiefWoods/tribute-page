@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  --github-black: #0D1117;
+}
+
+body {
+  display: inline-flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: calc(100vw - (100vw - 100%));
+  background-color: #FCF7F1;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 25px auto;
+  padding-inline: 12%;
+}
+
+#title {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 20px;
+  gap: 8px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  width: 250px;
+}
+
+#img-caption {
+  font-size: 16px;
+  text-align: center;
+  width: 200px;
+}
+
+#tribute-info {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  margin-block: 25px;
+}
+
+#tribute-link {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 25px;
+  width: fit-content;
+  color: black;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: var(--github-black);
+  padding: 12px 40px;
+}
+
+.made-by {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0 auto;
+}
+
+.github-link {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.github-icon {
+  height: 25px;
+}
