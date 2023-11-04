@@ -1,19 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-  --github-black: #0D1117;
-}
-
 body {
-  display: inline-flex;
-  flex-direction: column;
-  min-height: 100vh;
-  min-width: calc(100vw - (100vw - 100%));
   background-color: #FCF7F1;
 }
 
@@ -65,31 +50,4 @@ figure {
   margin-bottom: 25px;
   width: fit-content;
   color: black;
-}
-
-/* Footer */
-
-footer {
-  display: flex;
-  align-items: center;
-  background-color: var(--github-black);
-  padding: 12px 40px;
-}
-
-.made-by {
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  margin: 0 auto;
-}
-
-.github-link {
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  text-decoration: none;
-}
-
-.github-icon {
-  height: 25px;
 }
